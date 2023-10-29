@@ -167,6 +167,37 @@ These are some rough exercises that you use everyday in your codes. Try to find 
 
 ## Space Complexity
 
+Space complexity is a measure of how much auxiliary memory an algorithm needs.
+
+Example:
+
+```python
+def foo(n):
+    arr = []
+    for i in range(n):
+        arr.append(i)
+    return arr
+```
+
+In this example, we are creating an array with `n` elements. So the space complexity of this function is `O(n)`.
+
+But, with a little improvement:
+
+```python
+def foo(n):
+    return [i for i in range(n)]
+```
+
+We have still the same `Time Complexity`: `O(n)` but, the `Space Complexity` is `O(1)`.
+
+### Exercise
+
+Improve 9th Example above
+
+### Bad Practices in Real World
+
+
+
 ## Data Structures
 
 ### Array
