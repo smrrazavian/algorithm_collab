@@ -194,9 +194,37 @@ We have still the same `Time Complexity`: `O(n)` but, the `Space Complexity` is 
 
 Improve 9th Example above
 
-### Bad Practices in Real World
+## Divide and Conquer
 
+The divide and conquer algorithm is a method of solving a problem by breaking it down into smaller sub-problems, solving each of those sub-problems once, and then combining them to get the final solution.
 
+### Pros
+
+1. It's a very efficient way to solve a large problem.
+2. Parallelism and Multi-Threading is possible.
+3. Optimal substructure.
+4. Ease of Implementation.
+
+### Cons
+
+1. It's not efficient for small problems.
+2. Recursion overhead.
+3. Memory consumption.
+4. Debugging is difficult.
+5. Not Always Optimal.
+
+### Examples
+
+Some of the most famous algorithms that use the divide and conquer technique are:
+
+1. Merge Sort.
+2. Multiplication of two large numbers.
+
+## Quick Sort
+
+The Quick Sort algorithm is a divide and conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively. This can be done in-place, requiring small additional amounts of memory to perform the sorting.
+
+![Quick Sort](http://www.michaelfxu.com/assets/gifs/sorts/quick-sort.gif)
 
 ## Data Structures
 
